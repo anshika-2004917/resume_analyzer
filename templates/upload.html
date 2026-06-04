@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Upload Resume</title>
+
+    <style>
+        body {
+            font-family: Arial;
+            background-color: #eef2f7;
+        }
+
+        .container {
+            width: 40%;
+            margin: auto;
+            margin-top: 80px;
+            background: white;
+            padding: 25px;
+            border-radius: 10px;
+            box-shadow: 0px 0px 10px #ccc;
+        }
+
+        h2 {
+            text-align: center;
+            color: #2c3e50;
+        }
+
+        input, select {
+            width: 100%;
+            padding: 10px;
+            margin: 10px 0;
+        }
+
+        button {
+            width: 100%;
+            padding: 10px;
+            background-color: #27ae60;
+            color: white;
+            border: none;
+            cursor: pointer;
+        }
+
+        button:hover {
+            background-color: #1e8449;
+        }
+
+        a {
+            display: block;
+            text-align: center;
+            margin-top: 10px;
+        }
+    </style>
+</head>
+
+<body>
+
+<div class="container">
+
+    <h2>📤 Upload Resume</h2>
+
+    <form method="POST" enctype="multipart/form-data">
+
+        <input type="file" name="resume" required>
+
+        <select name="job_role">
+
+    <option value="general">General</option>
+
+    <option value="python developer">Python Developer</option>
+
+    <option value="java developer">Java Developer</option>
+
+    <option value="c++ developer">C++ Developer</option>
+
+    <option value="web developer">Web Developer</option>
+
+    <option value="frontend developer">Frontend Developer</option>
+
+    <option value="backend developer">Backend Developer</option>
+
+    <option value="full stack developer">Full Stack Developer</option>
+
+    <option value="data scientist">Data Scientist</option>
+
+    <option value="data analyst">Data Analyst</option>
+
+    <option value="machine learning engineer">Machine Learning Engineer</option>
+
+    <option value="ai engineer">AI Engineer</option>
+
+    <option value="devops engineer">DevOps Engineer</option>
+
+    <option value="android developer">Android Developer</option>
+
+</select>
+
+        <button type="submit">Analyze Resume</button>
+
+    </form>
+
+    <a href="/dashboard">⬅ Back to Dashboard</a>
+
+</div>
+
+</body>
+</html>
