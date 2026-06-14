@@ -67,6 +67,4 @@ Anshika Dwivedi
 
 B.Tech Student (Artificial Intelligence and Machine Learning)
 
-## License
 
-This project is created for educational and learning purposes.
